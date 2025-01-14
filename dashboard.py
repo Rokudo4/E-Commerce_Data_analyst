@@ -2,13 +2,10 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load the dataset
-customers_data_path = r'C:\Users\davin\Desktop\Data Analyst\E-Commerce Data Analyst\Dashboard\customers_df.csv'
-sales_product_data_path = r'C:\Users\davin\Desktop\Data Analyst\E-Commerce Data Analyst\Dashboard\sales_product.csv'
-rfm_data_path = r'C:\Users\davin\Desktop\Data Analyst\E-Commerce Data Analyst\rfm_df.csv'
-
-sales_product_data = pd.read_csv(sales_product_data_path)
-customers_data = pd.read_csv(customers_data_path)
+# Load Dataset
+rfm_df = pd.read_csv(https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/rfm_df.csv)
+sales_product_data = pd.read_csv(https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/sales_product.csv)
+customers_data = pd.read_csv(https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/customers_df.csv)
 
 
 # Title and Description
@@ -36,9 +33,6 @@ ax.set_title("Top 5 Kategori Produk")
 ax.set_xlabel("Kategori")
 ax.set_ylabel("Jumlah Terjual")
 st.pyplot(fig)
-
-# Load RFM Data
-rfm_df = pd.read_csv(rfm_data_path)
 
 # Best Customers by Recency, Frequency, and Monetary
 st.header("3. Analisis RFM pada Pelanggan")
