@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load Dataset
-rfm_df = pd.read_csv(https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/rfm_df.csv)
-sales_product_data = pd.read_csv(https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/sales_product.csv)
-customers_data = pd.read_csv(https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/customers_df.csv)
+rfm_df = pd.read_csv("https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/rfm_df.csv")
+sales_product_data = pd.read_csv("https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/sales_product.csv")
+customers_data = pd.read_csv("https://raw.githubusercontent.com/Rokudo4/E-Commerce_Data_analyst/refs/heads/main/customers_df.csv")
 
 
 # Title and Description
